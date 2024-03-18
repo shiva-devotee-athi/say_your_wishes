@@ -279,13 +279,6 @@ select {
   word-wrap: normal;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -306,13 +299,6 @@ input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
-}
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
 }
 
 textarea {
@@ -350,7 +336,6 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -5357,18 +5342,18 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff !important;
-  background-color: #ec9e41;
+  background-color: #285430;
 }
 a.badge-primary:hover,
 a.badge-primary:focus {
   color: #fff;
-  background-color: #e9a758;
+  background-color: #4b834e;
 }
 a.badge-primary:focus,
 a.badge-primary.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.1rem rgb(247 188 117 / 50%);
-  box-shadow: 0 0 0 0.1rem rgb(247 188 117 / 50%);
+  -webkit-box-shadow: 0 0 0 0.1rem rgba(13, 253, 62, 0.25);
+  box-shadow: 0 0 0 0.1rem rgba(13, 253, 62, 0.25);
 }
 
 .badge-secondary {
@@ -10648,7 +10633,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #f5b971;
+  color: #285430;
 }
 a:hover,
 a:focus {
@@ -10675,7 +10660,7 @@ h5,
 }
 
 .bg-primary {
-  background: #f5b971 !important;
+  background: #285430 !important;
 }
 
 .ftco-section {
@@ -10731,7 +10716,6 @@ h5,
 .login-wrap {
   position: relative;
   background: #fff h3;
-  background-font-weight: 300;
 }
 
 .form-group {
@@ -10779,7 +10763,7 @@ h5,
   outline: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #f5b971;
+  border: 1px solid #285430;
 }
 
 .social-media {
@@ -10801,7 +10785,7 @@ h5,
 }
 .social-media .social-icon:hover,
 .social-media .social-icon:focus {
-  background: #f5b971;
+  background: #285430;
 }
 .social-media .social-icon:hover span,
 .social-media .social-icon:focus span {
@@ -10859,16 +10843,16 @@ h5,
 }
 
 input[type='radio'] {
-  accent-color: #482029;
+  accent-color: #285430;
 }
 .form-check-input:checked{
-  background-color: #482029 !important;
-  border-color: #482029 !important;
+  background-color: #285430 !important;
+  border-color: #285430 !important;
 }
 .form-check-input:focus {
-  border-color: #482029 !important;
+  border-color: #285430 !important;
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgb(253 157 13 / 25%);
+  box-shadow: 0 0 0 0.15rem rgb(13 253 62 / 25%);
 }
 
 .media-29101{
@@ -10878,7 +10862,6 @@ input[type='radio'] {
   gap: 10px;
 }
 
-/* Show the checkmark when checked */
 .checkbox-wrap input:checked ~ .checkmark:after {
   display: block;
   content: "\f14a";
@@ -10886,12 +10869,11 @@ input[type='radio'] {
   color: rgba(0, 0, 0, 0.2);
 }
 
-/* Style the checkmark/indicator */
 .checkbox-primary {
-  color: #f5b971;
+  color: #285430;
 }
 .checkbox-primary input:checked ~ .checkmark:after {
-  color: #f5b971;
+  color: #285430;
 }
 
 .btn {
@@ -10907,23 +10889,23 @@ input[type='radio'] {
   outline: none;
 }
 .btn.btn-primary {
-  background: #ec9e41 !important;
-  border: 1px solid #ec9e41 !important;
+  background: #285430 !important;
+  border: 1px solid #285430 !important;
   color: #fff !important;
 }
 .btn.btn-primary:hover {
-  border: 1px solid #f5b971;
+  border: 1px solid #285430;
   background: transparent;
-  color: #f5b971;
+  color: #285430;
 }
 .btn.btn-primary.btn-outline-primary {
-  border: 1px solid #f5b971;
+  border: 1px solid #285430;
   background: transparent;
-  color: #f5b971;
+  color: #285430;
 }
 .btn.btn-primary.btn-outline-primary:hover {
   border: 1px solid transparent;
-  background: #f5b971;
+  background: #285430;
   color: #fff;
 }
 select#wishes option[value="1"]   { background-image:url(../images/mani_wish.png);   }
