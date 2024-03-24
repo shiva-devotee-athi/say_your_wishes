@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script src="./config.js" defer></script>
-    <title>Your Wish</title>
+    <title>Say your Greetings</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -99,10 +99,10 @@
                     />
                   </div>
                   <div class="form-group mb-3">
-                    <label class="label" for="wishInput">Your Wish</label>
+                    <label class="label" for="wishInput">your Greetings</label>
                     <textarea
                       class="form-control"
-                      placeholder="Enter Your Wish here.."
+                      placeholder="say your greeting here.."
                       id="wishInput"
                       name="wish"
                       rows="3"
@@ -259,7 +259,6 @@
         uploadBytes,
       } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-storage.js";
 
-      console.log(window.env.API_KEY);
       var firebaseConfig = {
         apiKey: window.env.API_KEY,
         authDomain: window.env.AUTH_DOMAIN,
@@ -275,7 +274,6 @@
       function uploadFile() {
         var fileInput = document.getElementById("imageInput");
         var file = fileInput.files[0];
-
         var storageRef = ref(
           storage,
           "images/" + new Date().getTime() + "_" + file.name
